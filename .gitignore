@@ -1,0 +1,13 @@
+.DS_Store
+.build/
+build/
+*.xcodeproj
+.swiftpm/
+
+# Ideal task notes and local agent state. Local-only working state; tracking it
+# left main permanently dirty and leaked note churn into feature PRs.
+.ideal/
+
+# Working notes for this repository. Local only: they point at a private
+# design document and at release steps only the maintainer can run.
+CLAUDE.md
